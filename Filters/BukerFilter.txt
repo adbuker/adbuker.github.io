@@ -1,0 +1,25 @@
+! Title: Buker
+! Version: 1527842129
+yandex.ru##div.rows__row_last
+yandex.ru##div.desk-notif-card_zen_yes
+yandex.ru##div[class*="promo"]
+drive2.ru##div.l-top
+drive2.ru##div.c-block[data-target^="auto.ru"]
+drive2.ru##div[id^="adfox_"]
+drive2.ru##div.c-block[-ext-has="a.c-link:contains(Реклама)"]
+vk.com##div#friends_possible_block
+vk.com##a.left_menu_nav
+vk.com##div#feed_filters
+vk.com##div#groups_filters_wrap
+||api.vk.com/method/account.setOnline
+||desktop.userapi.com/check_update^
+||opera.com^
+||yandex.ru/instant^
+||zen.yandex.ru^
+||yandex.ru/clck^
+||yandex.ru/ick^
+||mail.ru^
+||imgsmail.ru^
+||vigo.ru^
+||facebook.com^
+||mradx.net^
