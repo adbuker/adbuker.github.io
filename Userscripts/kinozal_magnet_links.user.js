@@ -5,6 +5,7 @@
 // @description  add magnet links near to torrent links for kinozal.tv pages
 // @author       vike
 // @grant        none
+// @include      /^http:\/\/kinozal.tv\/details\.php\?id=\d+$/
 // ==/UserScript==
 
 $(function(){
