@@ -1,5 +1,5 @@
 ! Title: Buker
-! Version: 1.4-step2
+! Version: 1.4-step3
 yandex.ru##div.rows__row_last
 yandex.ru##div.desk-notif-card_zen_yes
 yandex.ru##div[class*="promo"]
