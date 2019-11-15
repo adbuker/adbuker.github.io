@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         mysta.tv - edited
 // @namespace
-// @version      1
+// @version      1.2.r
 // @description  get uuid, load json, get m3u8, streamlink, hls player
 // @include      https://appweb.mysta.tv/web/share/profile?id=*
 // @include      https://api.mysta.tv/*
