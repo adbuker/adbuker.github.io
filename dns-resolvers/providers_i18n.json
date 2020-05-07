@@ -1,0 +1,338 @@
+{
+    "features": {
+        "ad_blocking": {
+            "be": {
+                "description": "Блакуе рэкламу і сістэмы асочвання",
+                "name": "Блакаванне рэкламы"
+            },
+            "en": {
+                "description": "Blocks ads and tracking servers",
+                "name": "Ad blocking"
+            },
+            "nl": {
+                "description": "Blokkeert advertenties en traceer-servers",
+                "name": "Advertentie blokkering"
+            },
+            "sk": {
+                "description": "Blokuje reklamy a sledovacie servery",
+                "name": "Blokovanie reklamy"
+            },
+            "ar": {
+                "description": "يحظر الإعلانات وخوادم التتبع",
+                "name": "حجب الإعلانات"
+            },
+            "sl": {
+                "description": "Zavira oglase in sledilne strežnike",
+                "name": "Zaviranje oglasov"
+            }
+        },
+        "secure": {
+            "be": {
+                "name": "Бяспека",
+                "description": "Блакуе вядомыя шкодныя і фішынгавыя дамены"
+            },
+            "en": {
+                "name": "Secure",
+                "description": "Blocks known malware and phishing domains"
+            },
+            "nl": {
+                "name": "Beveiligen",
+                "description": "Blokkeert bekende malware en phishing domeinen"
+            },
+            "sk": {
+                "name": "Bezpečný",
+                "description": "Blokuje známe domény šíriace škodlivý kód a podvodné domény"
+            },
+            "ar": {
+                "name": "الامان",
+                "description": "حظر البرامج الضارة المعروفة ونطاقات التصيد الاحتيالي"
+            },
+            "sl": {
+                "name": "Varno",
+                "description": "Zavira znane domene zlonamernih programov in lažne predstavitve"
+            }
+        },
+        "encryption": {
+            "be": {
+                "name": "Шыфраванне",
+                "description": "Не дазваляе трэцім асобам шпіёніць за вашай актыўнасцю ў інтэрнэце"
+            },
+            "en": {
+                "name": "Encryption",
+                "description": "Does not let third-parties spy on your browsing activity"
+            },
+            "nl": {
+                "name": "Versleuteling",
+                "description": "Laat niet toe dat derden je browser-activiteit bespioneren"
+            },
+            "sk": {
+                "name": "Šifrovanie",
+                "description": "Nedovoľuje, aby tretie strany špehovali Vašu aktivitu prehliadania"
+            },
+            "ar": {
+                "name": "التعمية",
+                "description": "لا تدع أطراف ثالثة تتجسس على نشاط التصفح الخاص بك"
+            },
+            "sl": {
+                "name": "Šifriranje",
+                "description": "Tretjim osebam ne dovoljuje vohunjenja vaše dejavnosti brskanja"
+            }
+        },
+        "no_logs": {
+            "be": {
+                "description": "Не захоўвае часопісы запытаў DNS",
+                "name": "Без лагавання"
+            },
+            "en": {
+                "description": "Does not store your DNS queries logs",
+                "name": "No logs"
+            },
+            "nl": {
+                "description": "Bewaart je DNS-verzoeken logs niet",
+                "name": "Geen logboeken"
+            },
+            "sk": {
+                "description": "Neuchováva denníky DNS dopytov",
+                "name": "Žiadne denníky"
+            },
+            "ar": {
+                "description": "الخاصة بك DNS لا تخزن سجلات استعلامات",
+                "name": "لا توجد سجلات"
+            },
+            "sl": {
+                "description": "Ne shranjuje vaših dnevnikov DNS poizvedb",
+                "name": "Brez dnevnikov"
+            }
+        },
+        "safe_search": {
+            "be": {
+                "name": "Бяспечны пошук",
+                "description": "Забяспечвае бяспечны пошук у папулярных пошукавых сістэмах і на YouTube"
+            },
+            "en": {
+                "name": "Safe search",
+                "description": "Enforces safe search for popular search engines and YouTube"
+            },
+            "nl": {
+                "name": "Veilig zoeken",
+                "description": "Verplicht veilig zoeken voor populaire zoekmachines en YouTube"
+            },
+            "sk": {
+                "name": "Bezpečné vyhľadávanie",
+                "description": "Vynucuje bezpečné vyhľadávanie populárnych vyhľadávacích nástrojov a YouTube"
+            },
+            "ar": {
+                "name": "البحث الأمن",
+                "description": "يفرض البحث الأمن على محركات البحث الشائعة واليوتيوب"
+            },
+            "sl": {
+                "name": "Varno iskanje",
+                "description": "Izvaja varno iskanje priljubljenih iskalnikov in YouTube"
+            }
+        },
+        "adult_content_blocking": {
+            "be": {
+                "description": "Блакуе сайты з кантэнтам для дарослых",
+                "name": "Блакаванне кантэнту для дарослых"
+            },
+            "en": {
+                "description": "Blocks websites with adult content",
+                "name": "Adult content blocking"
+            },
+            "nl": {
+                "description": "Blokkeert websites met volwassen inhoud",
+                "name": "Volwassen inhoud blokkeren"
+            },
+            "sk": {
+                "description": "Blokuje stránky s obsahom pre dospelých",
+                "name": "Blokovanie obsahu pre dospelých"
+            },
+            "ar": {
+                "description": "لحظر مواقع الويب التي تتضمن محتوى للبالغين",
+                "name": "حجب محتوى البالغين"
+            },
+            "sl": {
+                "description": "Zavira spletne strani z vsebinami za odrasle",
+                "name": "Zaviranje vsebin za odrasle"
+            }
+        }
+    },
+    "providers": {
+        "10005": {
+            "be": {
+                "description": "AdGuard DNS + бяспечны пошук і блакаванне кантэнту для дарослых"
+            },
+            "en": {
+                "description": "AdGuard DNS + SafeSearch and adult content blocking",
+                "name": "AdGuard DNS Family Protection"
+            },
+            "nl": {
+                "description": "AdGuard DNS met veilig-zoeken en blokkering van volwassen inhoud",
+                "name": "AdGuard DNS Familie Bescherming"
+            },
+            "sk": {
+                "description": "AdGuard DNS + bezpečné vyhľadávanie a blokovanie obsahu pre dospelých",
+                "name": "AdGuard DNS s rodinnou ochranou"
+            },
+            "ar": {
+                "description": "البحث الآمن وحظر محتوى البالغين + AdGuard DNS"
+            },
+            "sl": {
+                "description": "AdGuard DNS + Varno iskanje in zaviranje vsebin za odrasle",
+                "name": "AdGuard DNS Zaščita družine"
+            }
+        },
+        "10001": {
+            "be": {
+                "name": "AdGuard DNS",
+                "description": "Выдаляе рэкламу і бароніць ваш кампутар ад шкоднага ПА."
+            },
+            "en": {
+                "name": "AdGuard DNS",
+                "description": "Removes ads and protects your device from malware"
+            },
+            "nl": {
+                "name": "AdGuard DNS",
+                "description": "Verwijdert advertenties en beschermt je apparaat tegen malware"
+            },
+            "sk": {
+                "name": "AdGuard DNS",
+                "description": "Odstraňuje reklamy a chráni Vaše zariadenie pred škodlivým kódom"
+            },
+            "ar": {
+                "name": "AdGuard DNS",
+                "description": "يزيل الإعلانات ويحمي جهازك من البرامج الضارة"
+            },
+            "sl": {
+                "name": "AdGuard DNS",
+                "description": "Odstrani oglase in obvaruje vašo napravo pred zlonamernimi programi"
+            }
+        },
+        "10009": {
+            "be": {
+                "name": "Google DNS",
+                "description": "Бясплатная альтэрнатыўная паслуга DNS ад Google"
+            },
+            "en": {
+                "name": "Google DNS",
+                "description": "Free alternative DNS service by Google"
+            },
+            "nl": {
+                "name": "Google DNS",
+                "description": "Gratis alternatieve DNS service via Google"
+            },
+            "sk": {
+                "name": "Google DNS",
+                "description": "Bezplatná alternatíva služby DNS od Google"
+            },
+            "ar": {
+                "name": "Google DNS"
+            },
+            "sl": {
+                "name": "Google DNS",
+                "description": "Googlova brezplačna nadomestna storitev DNS"
+            }
+        },
+        "10019": {
+            "be": {
+                "name": "Quad9",
+                "description": "Бясплатны альтэрнатыўны DNS-сэрвіс з абаронай ад фішынгу і шпіёнскіх праграм"
+            },
+            "en": {
+                "name": "Quad9",
+                "description": "Free alternative DNS service with protection from phishing and spyware"
+            },
+            "nl": {
+                "name": "Quad9",
+                "description": "Gratis alternatieve DNS service met bescherming tegen phishing en spyware"
+            },
+            "sk": {
+                "name": "Quad9",
+                "description": "Bezplatná alternatívna služba DNS s ochranou pred podvodom a špehovaním"
+            },
+            "ar": {
+                "name": "Quad9",
+                "description": "خدمة DNS بديلة مجانية مع الحماية من الخداع وبرامج التجسس"
+            },
+            "sl": {
+                "name": "Quad9",
+                "description": "Brezplačna nadomestna storitev DNS z varstvom pred lažnim predstavljanjem in vohunskimi programi"
+            }
+        },
+        "10012": {
+            "be": {
+                "name": "Cloudflare DNS",
+                "description": "Бясплатны сэрвіс DNS ад Cloudflare"
+            },
+            "en": {
+                "description": "Free DNS service by Cloudflare",
+                "name": "Cloudflare DNS"
+            },
+            "nl": {
+                "description": "Gratis DNS service van Cloudflare",
+                "name": "Cloudflare DNS"
+            },
+            "sk": {
+                "description": "Bezplatná DNS služba od Cloudflare",
+                "name": "Cloudflare DNS"
+            },
+            "ar": {
+                "name": "Cloudflare DNS"
+            },
+            "sl": {
+                "description": "Brezplačna DNS storitev podjetja Cloudflare",
+                "name": "Cloudflare DNS"
+            }
+        },
+        "10017": {
+            "be": {
+                "description": "Сервер OpenDNS з блакаваннем кантэнту для дарослых"
+            },
+            "en": {
+                "name": "Cisco OpenDNS with Family Shield",
+                "description": "OpenDNS server with adult content blocking"
+            },
+            "nl": {
+                "name": "Cisco OpenDNS met familie bescherming",
+                "description": "OpenDNS server met blokkering van volwassen inhoud"
+            },
+            "sk": {
+                "name": "Cisco OpenDNS s ochranou rodiny",
+                "description": "OpenDNS server s blokovaním obsahu pre dospelých"
+            },
+            "ar": {
+                "description": "خادم OpenDNS مع حظر محتوى البالغين"
+            },
+            "sl": {
+                "name": "Cisco OpenDNS z družinskim ščitom",
+                "description": "OpenDNS strežnik z zaviranjem vsebin za odrasle"
+            }
+        },
+        "10015": {
+            "be": {
+                "name": "Cisco OpenDNS",
+                "description": "DNS-сервер з наладжвальнай фільтрацыяй, што бароніць вашу прыладу ад шкоднага ПА"
+            },
+            "en": {
+                "name": "Cisco OpenDNS",
+                "description": "DNS server that protects your device from malware"
+            },
+            "nl": {
+                "name": "Cisco OpenDNS",
+                "description": "DNS server die je systeem beschermt tegen malware"
+            },
+            "sk": {
+                "name": "Cisco OpenDNS",
+                "description": "DNS server, ktorý chráni Vaše zariadenie pred škodlivým kódom"
+            },
+            "ar": {
+                "name": "Cisco OpenDNS",
+                "description": "خادمDNS الذي يحمي جهازك من البرامج الضارة"
+            },
+            "sl": {
+                "name": "Cisco OpenDNS",
+                "description": "Strežnik DNS, ki varuje vašo napravo pred zlonamernimi programi"
+            }
+        }
+    }
+}
