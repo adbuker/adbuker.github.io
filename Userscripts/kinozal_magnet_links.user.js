@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         kinozal.tv magnet links
 // @namespace    none
-// @version      0.6
+// @version      0.645
 // @description  add magnet links near to torrent links for kinozal.tv pages
 // @author       vike
 // @grant        none
